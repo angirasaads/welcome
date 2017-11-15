@@ -110,7 +110,9 @@ def welcome(bot, update):
     if text is None:
         text = 'Hello $username! Welcome to $title %s' \
                   % Emoji.GRINNING_FACE_WITH_SMILING_EYES
+'We appreciate all those who are contributing to this group, please read T&C before using resource of Friends To Support.Caution: The group doesn’t tolerate anything other than train updates, posting against country, government, religion, gender, political view, unrelated, offensive content and connecting personally any members in group against their acceptance is strictly prohibited & they are solely responsible for any legal action. Still anybody reported doing such activity your name will be announced in group and your profile will be banned forever. If any one facing such issue please feel free to report admins of this group.
 
+Thanks.'
     # Replace placeholders and send message
     text = text.replace('$username',
                         message.new_chat_member.first_name)\
